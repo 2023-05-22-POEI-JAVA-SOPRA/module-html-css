@@ -1,0 +1,88 @@
+/* body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+} */
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+#js {
+  font-weight: bold;
+  color: #dc143c;
+  background-color: #a9a9a9;
+}
+
+.abc {
+  color: #ff00a2;
+  background-color: #5400a3;
+}
+
+p {
+  background-color: cadetblue;
+  font-style: italic;
+  font-weight: 600;
+}
+
+p {
+  background-color: aqua;
+  text-decoration: underline;
+}
+
+/*
+  Inline CSS(mauvaise pratique) > Selecteur d'ID > selecteur CLASS > selecteur d'element
+*/
+
+.first-title {
+  font-size: 34px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 60px;
+
+  /* haut : 100px, droite : 60px, bas: 10px, gauche : 50px */
+  /* margin: 100px 60px 10px 50px; */
+
+  /* haut/bas : 30px et gauche/droite : 25px */
+  /* margin: 30px 25px; */
+
+  /* Bordures */
+  /* border-top: 5px solid red;
+  border-bottom: 10px double green;
+  border-left: 7px dotted blue;
+  border-right: 12px dashed orange; */
+
+  border: 5px solid #ff00a2;
+
+  /* Bordures arrondies */
+
+  /* border-radius: 20px 45px 10px 5px; */
+}
+
+.lorem {
+  text-align: justify;
+}
+
+.radius-5 {
+  border-radius: 5px;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.pad-5 {
+  padding: 5px;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.pad-15 {
+  padding: 15px;
+}
